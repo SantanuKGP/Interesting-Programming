@@ -14,5 +14,10 @@ int main(){
 	the int is promoted to unsigned. Negative numbers are stored in 2's complement 
 	form and unsigned value of the 2's complement form is much higher than the sizeof int.
 	*/
+	
+	int i;
+	cout<<"Enter an integer: ";
+//	cin>> i+4; 
+	cout<<i;
 	return 0;
 }
